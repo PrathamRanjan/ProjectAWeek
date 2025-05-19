@@ -17,7 +17,7 @@ from PIL import Image
 
 class GROQSmolVLMAnalyzer:
     def __init__(self, groq_api_key=None):
-        self.groq_api_key = groq_api_key or "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"
+        self.groq_api_key = groq_api_key or "key"
         self.driver = None
         
     def setup_driver(self, headless=True):
